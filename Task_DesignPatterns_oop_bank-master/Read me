@@ -1,0 +1,11 @@
+I was using factory and strategy design patterns.
+First, for the types of payment I used factory pattern; there is factory that creates the types of payments
+depends on the chosen type of payment that user wants to use. 
+The initialize method is made appropriate for the different type of payments.
+After that each of this payments have different logic for executing payment depends of the amount that user 
+needs to pay. For this I used strategy pattern. There is interface IPaymentStrategy with its own method PaymentStrategy()
+and all of the different type of payments extend this interface and implement the different payment.
+
+P.S: All of the methods are void, with just printing to command line what is done with the implementation of design patterns
+
+ 
