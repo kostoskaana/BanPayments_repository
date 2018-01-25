@@ -24,7 +24,7 @@ public class Test_Main {
 		System.out.print("Enter the amount of your payment");
 		int amount = in.nextInt();
 	    customer.executePayment(amount);
-		
+//		
 		System.out.print("\n Successfull payment");
 		
 		
